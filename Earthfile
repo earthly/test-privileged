@@ -12,3 +12,11 @@ privileged:
     FROM alpine:latest
     RUN --privileged cat /proc/self/status | grep CapEff > output
     SAVE ARTIFACT output proc-status
+
+REG:
+    COMMAND
+    RUN echo this should work > output
+
+PRIV:
+    COMMAND
+    RUN --privileged cat /proc/self/status | grep CapEff > output
