@@ -1,2 +1,3 @@
-# test-privileged
-a test repository used for testing targets that require privileged permisions
+The contents of this repo has been moved to github.com/earthly/test-remote/privileged
+
+This repo will be deleted in the future.
